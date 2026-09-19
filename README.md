@@ -1,12 +1,8 @@
 # Reviewer-requested validation code
 
-This directory reproduces the new experiments added in response to the three
-IEEE Access reviewers for manuscript **Access-2026-30726**.
+This repository contains supplementary code and reproducible experiments for the paper **“Accurate, Private, and Resilient Distributed Optimization via Network Augmentation.”**
 
-The implementation discloses every finite-time detector constant and its exact
-application order.  It also provides the requested sensitivity study,
-out-of-model drift/oscillation/copy-dependent attacks, a smooth non-quadratic
-augmented-EXTRA experiment, and an honest-but-curious coalition-size sweep.
+The implementation specifies all finite-time detector constants and their exact application order. It includes sensitivity analyses, stress tests involving drift, oscillatory, and copy-dependent attacks outside the theoretical assumptions, an augmented-EXTRA experiment with smooth non-quadratic objectives, and an honest-but-curious coalition-size sweep.
 
 ## Reproduce
 
