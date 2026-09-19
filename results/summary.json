@@ -1,0 +1,33 @@
+{
+  "detector": {
+    "eps_match": 0.001,
+    "tau_cap": 0.7,
+    "tau_struct": 0.6,
+    "tau_weak": 0.15,
+    "min_anchor_members": 3,
+    "min_anchor_sizes": 2
+  },
+  "nominal_battery": {
+    "successes": 147,
+    "trials": 147
+  },
+  "nonquadratic": {
+    "trials": 30,
+    "median_final_error": 2.2325197246431117e-13,
+    "maximum_final_error": 7.59170504238682e-13,
+    "maximum_disagreement": 8.881784197001252e-16
+  },
+  "coalition": {
+    "maximum_tested_size": 5,
+    "minimum_distance": 0.11469486608726023
+  },
+  "near_honest_separation": {
+    "smallest_perfect_separation": 0.002,
+    "largest_failing_separation": 0.0005
+  },
+  "network_structure": {
+    "trials": 50,
+    "clustering_iteration_correlation": 0.7601371835233863,
+    "modal_radius_iteration_correlation": 0.8227074757359153
+  }
+}
